@@ -15,9 +15,9 @@
 #define Chars   "abcdefghijklmnopqrstuvwxyz0123456789"
 #define Size    6
 
+void threadmain(int16);
 
-
-// going to call this funtion to geerate all possible sequence
+// going to call this funtion to generate all possible sequence
 char *generate(void);
 char *pwencrypt(char*);
 int main(int, char**);
